@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Guess Game</title>
+	<script>
+  var secretNumber = 4;
+
+//ask user for a guess
+var guess =  Number(prompt("Guess any number"));
+
+if (guess === secretNumber){
+	alert("Genius");
+}
+else if (guess > secretNumber){
+	alert("Too high");
+}
+else {
+	alert("Too low");
+}
+
+  </script>
+</head>
+<body>
+
+</body>
+</html>
