@@ -2,7 +2,10 @@
 <html>
 <head>
 	<title>Guess Game</title>
-	<script>
+	
+</head>
+<body>
+<script>
   var secretNumber = 4;
 
 //ask user for a guess
@@ -18,9 +21,6 @@ else {
 	alert("Too low");
 }
 
-  </script>
-</head>
-<body>
-
+</script>
 </body>
 </html>
